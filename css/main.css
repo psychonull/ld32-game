@@ -57,17 +57,77 @@ textarea {
    ========================================================================== */
 
 
+body {
+    background-color: black;
+    color: white;
+    font-family: "VT323";
+}
 
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
 
+.mini-games {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
 
+.mini-games a {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 10px solid rgb(157, 153, 79);
+    margin: 10px;
+    position: relative;
+}
 
+.mini-games a:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
 
+.mini-games a.pig:before {
+    background-image: url('../img/logo_pig.png');
+}
 
+.mini-games a.car:before {
+    background-image: url('../img/logo_car.png');
+}
 
+.mini-games a.money:before {
+    background-image: url('../img/logo_money.png');
+}
 
+.mini-games a.futbol:before {
+    background-image: url('../img/logo_futbol.png');
+}
 
-
+.mini-games a:hover:before {
+    opacity: 1;
+}
 
 
 /* ==========================================================================
