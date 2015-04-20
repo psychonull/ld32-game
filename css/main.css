@@ -121,8 +121,8 @@ h1 {
     background-image: url('../img/logo_money.png');
 }
 
-.mini-games a.futbol:before {
-    background-image: url('../img/logo_futbol.png');
+.mini-games a.footsun:before {
+    background-image: url('../img/logo_footsun.png');
 }
 
 .mini-games a:hover:before {
