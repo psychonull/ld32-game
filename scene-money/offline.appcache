@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1429499967
+#1429573019
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -24,6 +24,8 @@ media/plane3.m4a
 media/plane3.ogg
 media/laser_shoot4.m4a
 media/laser_shoot4.ogg
+media/music1.m4a
+media/music1.ogg
 icon-16.png
 icon-32.png
 icon-114.png

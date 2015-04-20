@@ -5,6 +5,7 @@ var bg_menu = new Howl({
   loop: true,
   volume: 0.3,
   onEnd: function() {
+    bg_menu.stop();
     bg_menu.play();
   }
 });
