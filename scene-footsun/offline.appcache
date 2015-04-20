@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1429562922
+#1429573831
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -16,6 +16,28 @@ images/1_bullet-sheet0.png
 images/1_sun_particle.png
 images/1_top_bg-sheet0.png
 images/1_new_kills.png
+media/enemyball.m4a
+media/enemyball.ogg
+media/enemyball2.m4a
+media/enemyball2.ogg
+media/enemyball3.m4a
+media/enemyball3.ogg
+media/enemyexplosion.m4a
+media/enemyexplosion.ogg
+media/juggle1.m4a
+media/juggle1.ogg
+media/juggle2.m4a
+media/juggle2.ogg
+media/shoot1.m4a
+media/shoot1.ogg
+media/shootpowa.m4a
+media/shootpowa.ogg
+media/death.m4a
+media/death.ogg
+media/poweredup.m4a
+media/poweredup.ogg
+media/bg.m4a
+media/bg.ogg
 icon-16.png
 icon-32.png
 icon-114.png
