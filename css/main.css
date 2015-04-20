@@ -129,6 +129,30 @@ h1 {
     opacity: 1;
 }
 
+section h1 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0px 2px;
+}
+
+.help {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.help * {
+  margin: 0;
+}
+
+.help span.control {
+    font-weight: bold;
+}
+
+.controls h4 {
+  text-align: middle;
+}
 
 /* ==========================================================================
    Media Queries
