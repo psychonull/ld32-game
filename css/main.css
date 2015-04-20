@@ -74,11 +74,24 @@ h3 {
     margin-top: -30px;
 }
 
+.main-centered {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
 .mini-games {
     width: 100%;
     max-width: 500px;
     display: block;
     margin: 0 auto;
+    text-align: center;
+}
+
+.mini-games.opened {
+    text-align: left;
 }
 
 .mini-games a {
@@ -151,13 +164,60 @@ section h1 {
   margin: 0;
 }
 
+.help section {
+    padding: 0 10px;
+}
+
 .help span.control {
     font-weight: bold;
 }
 
-.controls h4 {
-  text-align: middle;
+.game-controls {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
 }
+
+.game-controls a {
+    border: none;
+    width: 100px;
+    height: auto;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    color: white;
+
+    position: absolute;
+    right: 25%;
+}
+
+.game-controls a:hover {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.game-controls a.play {
+    top:30px;
+}
+
+.game-controls a.back {
+    bottom:30px;
+}
+
+.game-controls a.play:hover {
+    top:20px;
+}
+
+.game-controls a.back:hover {
+    bottom:20px;
+}
+
 
 /* ==========================================================================
    Media Queries

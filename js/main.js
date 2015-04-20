@@ -22,17 +22,29 @@ $(function(){
           e.preventDefault();
           ctn.find('a').not(this).fadeOut();
           $('.help-' + item).removeClass('hidden');
-          $('.controls').removeClass('hidden');
-          $('.controls .play').attr('href', this.href);
+          $('.game-controls').removeClass('hidden');
+          $('.game-controls .play').attr('href', this.href);
+          $('.mini-games').addClass('opened');
         })
     );
   });
 
-  $('.controls .back').click(function(e){
-    e.preventDefault();
-    $('.controls').addClass('hidden');
+  function goback(e){
+    if (e) e.preventDefault();
+
+    $('.game-controls').addClass('hidden');
     $('.help').addClass('hidden');
+    $('.mini-games').removeClass('opened');
     ctn.find('a').fadeIn();
+  }
+
+  $('.game-controls a.back').click(goback)
+  $(window, document).on('keyup', function(e){
+
+    if ((e.keyCode || e.which) === 27) goback();
+
+    else if ((e.keyCode || e.which) === 13)
+      window.location = $('.play').attr('href');
   });
 
   $('.mini-games a').jrumble({
