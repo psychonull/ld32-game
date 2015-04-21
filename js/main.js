@@ -59,7 +59,7 @@ $(function(){
       $('<a>')
         .addClass(item)
         .addClass(completedClass)
-        .attr('href', "/scene-" + item + "/index.html")
+        .attr('href', "scene-" + item + "/index.html")
         .click(function(e){
           e.preventDefault();
           ctn.find('a').not(this).fadeOut();
